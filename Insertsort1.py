@@ -6,5 +6,5 @@ def insertsort(array):
                 for i in range(blackptr-1, blueptr-1, -1):
                     array[i+1] = array[i]
                 array[blueptr] = temp
-                break
+            break
             
